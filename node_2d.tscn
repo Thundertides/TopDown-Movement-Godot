@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c8jkgcp7vsxbu"]
+
+[ext_resource type="PackedScene" uid="uid://cw04x0qix80qe" path="res://character.tscn" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D" unique_id=1532430003]
+
+[node name="Character" parent="." unique_id=709710188 instance=ExtResource("1_wtcfe")]
+position = Vector2(520, 275)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=214155423]
