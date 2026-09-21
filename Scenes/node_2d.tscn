@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c8jkgcp7vsxbu"]
+
+[ext_resource type="PackedScene" uid="uid://cw04x0qix80qe" path="res://Scenes/character.tscn" id="1_j2wod"]
+
+[node name="Node2D" type="Node2D" unique_id=1532430003]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=214155423]
+
+[node name="Character" parent="." unique_id=709710188 instance=ExtResource("1_j2wod")]
+position = Vector2(364, 169)
